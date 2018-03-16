@@ -23,9 +23,9 @@
       </div>
     </a>
 
-    <div class="logo">
+    <div class="logo1">
      <img src="popopop.png" alt="peaches Skateboarding logo" height="175px" width="auto"/>
    </div>
     <h1 class="align-left">Peaches Skateboarding</h1>
-    
+
     <p class="gallery" align="center">
