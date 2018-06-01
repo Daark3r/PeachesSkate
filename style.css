@@ -1,6 +1,6 @@
 body{
-background: #1f364c;
-  color: #ffffff;
+background: #white;
+  color: #1f364c;
   padding-left: 0px;
   padding-right: 0px;
 }
@@ -23,28 +23,37 @@ background: #1f364c;
     padding: 15px;
 }
 .logo{
-  margin-top: -175px;
-  margin-left: 70px;
+  margin-top: -50px;
+  margin-left: 0px;
 }
 .facebook{
   font-size: 50px;
-  color:white;
-  margin-left: 5px;
+  color:#1f364c;
+  display: grid;
+  place-items: start right;
+  margin-right: 105px;
 }
 .facebook :hover{
 color:#1d5786;
 }
 .instagram{
   font-size: 50px;
-  color:white;
-  margin-left: 5px;
+  color:#1f364c;
+  display: grid;
+  place-items: start right;
+  margin-right: 55px;
+  margin-top: -50px;
 }
 .instagram :hover{
   color:#ea4aff;
 }
 .youtube{
   font-size: 50px;
-  color:white;
+  color:#1f364c;
+  display: grid;
+  place-items: start right;
+  margin-right: 0px;
+  margin-top: -50px;
 }
 .youtube :hover{
   color:#ff3333;
