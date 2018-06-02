@@ -1,8 +1,6 @@
 body{
-background: #white;
-  color: #1f364c;
-  padding-left: 0px;
-  padding-right: 0px;
+background: #89c3fb;
+
 }
   h1 {
     font-family: monospace;
@@ -14,8 +12,13 @@ background: #white;
 .align-left{
   text-align: left;
 }
-.gallery{
-  text-align: center;
+.navbar{
+  background: #1f364c;
+  width: 101.2%;
+  height: 55px;
+  margin-top: -10px;
+  margin-left: -7px;
+  margin-right: 0px;
 }
   p {
     font-family: sans-serif;
@@ -23,46 +26,45 @@ background: #white;
     padding: 15px;
 }
 .logo{
-  margin-top: -50px;
-  margin-left: 0px;
+  margin-top: -40px;
+  margin-left: -6px;
 }
 .facebook{
-  font-size: 50px;
-  color:#1f364c;
+  font-size: 35px;
+  color:#89c3fb;
   display: grid;
   place-items: start right;
-  margin-right: 105px;
+  margin-right: 88px;
+  margin-top: -44px;
 }
 .facebook :hover{
-color:#1d5786;
+color:#fff;
 }
 .instagram{
-  font-size: 50px;
-  color:#1f364c;
+  font-size: 35px;
+  color:#89c3fb;
   display: grid;
   place-items: start right;
-  margin-right: 55px;
-  margin-top: -50px;
+  margin-right: 47px;
+  margin-top: -35px;
 }
 .instagram :hover{
-  color:#ea4aff;
+  color:#fff;
 }
 .youtube{
-  font-size: 50px;
-  color:#1f364c;
+  font-size: 35px;
+  color:#89c3fb;
   display: grid;
   place-items: start right;
   margin-right: 0px;
-  margin-top: -50px;
+  margin-top: -36px;
 }
 .youtube :hover{
-  color:#ff3333;
+  color:#fff;
 .left{
   text-align: left;
 }
-.right{
-  text-align: right;
-}
+
 .blurb {
   width: 40%;
   margin: 0px auto;

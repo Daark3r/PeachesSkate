@@ -3,10 +3,15 @@
 <head>
     <meta charset="utf-8">
   <title>Peaches Skateboarding</title>
+  <link rel="icon" href="popopop.png">
   <link rel="stylesheet" href="style.css">
   <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 </head>
 <body>
+
+    <div class="navbar">
+
+    </div>
     <a href="https://www.facebook.com/peacheskateboarding/" target="_blank">
       <div class="facebook">
         <i class="fab fa-facebook"></i>
@@ -24,8 +29,6 @@
     </a>
 
     <div class="logo">
-     <img src="popopop.png" alt="peaches Skateboarding logo" height="175px" width="auto"/>
+     <img src="popopop.png" alt="peaches Skateboarding logo" height="120px" width="auto"/>
    </div>
     <h1 class="align-left"></h1>
-
-    <p class="gallery" align="center">
