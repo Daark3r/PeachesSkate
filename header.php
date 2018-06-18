@@ -17,26 +17,33 @@
       <ul>
         <li>
           <a href="https://www.facebook.com/peacheskateboarding/" target="_blank">
-            <div class="facebook">
+            <div class="appicon">
               <i class="fab fa-facebook"></i>
             </div>
           </a>
         </li>
         <li>
           <a href="https://www.instagram.com/peaches_skate/" target="_blank">
-            <div class="instagram">
+            <div class="appicon">
               <i class="fab fa-instagram"></i>
             </div>
           </a>
         </li>
         <li>
           <a href="https://www.youtube.com/channel/UCfj6NauHtF4zW_9-erliipQ" target="_blank">
-            <div class="youtube">
+            <div class="appicon">
               <i class="fab fa-youtube"></i>
             </div>
           </a>
         </li>
       </ul>
+      <ul>
+        <div class="pages">
+          <li><a href="#">gallery</a></li>
+          <li><a href="#">catalogue</a></li>
+          <li><a href="#">contact</a></li>
+        </div>
+      </ul>
     </div>
   </header>
-  <h1 class="align-left"></h1>
+  <h1></h1>

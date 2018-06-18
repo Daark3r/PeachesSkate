@@ -4,11 +4,11 @@ body{
 }
 
 h1 {
-    font-family: monospace;
-    font-weight:550;
-    font-size: 20px;
-    height: 242px;
-    margin-top: -3px;
+  font-family: monospace;
+  font-weight:550;
+  font-size: 20px;
+  height: 242px;
+  margin-top: -3px;
 }
 .align-left{
   text-align: left;
@@ -19,11 +19,11 @@ h1 {
   margin-top: 0px;translate3d
   height: 60px;
   position: absolute;
-    padding-left: 180px
+  padding-left: 180px
 }
 
 .navbar ul {
-    list-style:none;
+  list-style:none;
 }
 
 .navbar ul li {
@@ -32,7 +32,6 @@ h1 {
   margin: 0px 10px;
   width: 50px;
   font-size: 35px;
-  
 }
 
 .navbar a {
@@ -49,10 +48,12 @@ h1 {
 }
 
 p {
-    font-family: sans-serif;
-    font-size: 20px;
-    padding: 15px;
+  font-family: sans-serif;
+  font-size: 20px;
+  padding: 15px;
 }
+
+
 .logo{
   margin: 10px 30px 0px 10px;
   position: absolute;
@@ -65,6 +66,9 @@ p {
   border-radius: 55px;
 }
 
+.grid-container {
+  display: grid;
+}
 
 .blurb{
   width: 40%;
@@ -75,4 +79,5 @@ p {
 }
 
 nav{
+  
 }
