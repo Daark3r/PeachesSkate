@@ -13,7 +13,7 @@ h1 {
 
 header {
   display: grid;
-  grid-template-columns: 200px auto auto;
+  grid-template-columns: 200px repeat(2, auto);
   background: #1f364c;
   display-template-columns:auto auto auto;
 }
