@@ -12,7 +12,6 @@ h1 {
 }
 
 header {
-  display: grid;
   grid-template-columns: 200px repeat(2, auto);
   background: #1f364c;
   display-template-columns:auto auto auto;
@@ -39,9 +38,9 @@ header a {
   opacity: 1;
 }
 
-.else{
+.gridContainer{
   display: grid;
-  
+
 }
 
 p {
@@ -86,4 +85,26 @@ p {
 
 nav{
 
+}
+
+.card {
+  background-color: #CCC;
+  height: 100px;
+
+  padding: 10px;
+}
+
+.blue {
+  background-color: rgb(55, 106, 159);
+  color: rgba(198, 215, 173, 0.8)
+}
+
+.dropshadow {
+  -webkit-box-shadow: 1px 2px 2px rgba(0,0,0, 0.6);
+   box-shadow: 1px 2px 2px rgba(0,0,0, 0.6);
+}
+
+#items {
+  grid-template-columns: auto auto auto auto;
+  grid-column-gap: 10px;
 }
