@@ -1,6 +1,7 @@
 body{
   background-color: #89c3fb;
   margin: 0px;
+  margin-bottom: 20px;
 }
 
 h1 {
@@ -40,7 +41,6 @@ header a {
 
 .gridContainer{
   display: grid;
-
 }
 
 p {
@@ -67,7 +67,11 @@ p {
 }
 
 .menu{
-  display-template-columns:auto auto auto;
+  grid-template-columns: auto auto auto;
+}
+
+.menu-item {
+  align-self: end;
 }
 
 .pages{
@@ -83,13 +87,17 @@ p {
   margin-top: 300px;
 }
 
+.full-height {
+  min-height: 100vh;
+}
+
 nav{
 
 }
 
 .card {
   background-color: #CCC;
-  height: 100px;
+
 
   padding: 10px;
 }
@@ -97,6 +105,10 @@ nav{
 .blue {
   background-color: rgb(55, 106, 159);
   color: rgba(198, 215, 173, 0.8)
+}
+
+.red {
+  background-color: rgb(171, 67, 67);
 }
 
 .dropshadow {
@@ -107,4 +119,21 @@ nav{
 #items {
   grid-template-columns: auto auto auto auto;
   grid-column-gap: 10px;
+}
+
+#mainSection {
+  grid-template-columns: auto auto;
+  margin: 50px 0px;
+}
+
+.item2{
+grid-template-columns: auto;
+}
+
+#contact {
+  color: #EEE;
+}
+
+#contact h1 {
+  font-size: 40px;
 }
