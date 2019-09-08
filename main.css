@@ -1,0 +1,50 @@
+body {
+    background: #0368C0;
+    color: white;
+    font-family: Tahoma, Verdana, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #145085;
+    padding: 5px 15px;
+}
+
+header h1{
+    margin: 0;
+    display: inline;
+    font-size: 40px;
+}
+
+nav ul {
+    margin: 0;
+    display: inline;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 1%;
+    padding: 5px 15px;
+    font-size: 25px;
+}
+
+section {
+    background: #999;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+div {
+    background: green;
+    margin: auto;
+    width: 100px;
+}
+
+footer {
+    clear: both;
+    background: black;
+    padding: 8px 20px;
+}
