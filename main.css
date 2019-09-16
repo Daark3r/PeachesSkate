@@ -8,7 +8,9 @@ body {
 
 header {
     background: #1a3056;
-    padding: 0 0 0 0;
+
+    background-repeat: no-repeat;
+    padding: 10px 25px;
     margin: 0;
     text-decoration: none;
 }
@@ -25,33 +27,54 @@ header .logo a {
     width: 150px;
 }
 
+header .page a {
+    position: relative;
+    top: 60px;
+}
+
+header .page a:hover {
+    text-decoration: underline;
+}
+
 header h1 {
     margin: 0;
     display: inline;
     font-size: 30px;
 }
 
+header a {
+  color: white;
+  font-size: 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-top: 0px;
+}
+
 nav ul {
     margin: 0;
-    display: inline;
     padding: 0;
+    list-style-type: none;
 }
 
 nav ul li {
     display: inline-block;
-    list-style-type: none;
-    margin: 0 30px 0 0;
-    padding: 5px 15px;
-    font-size: 25px;
-    text-transform: uppercase;
-    background-color: aquamarine;
+    margin-right: 10%;
 }
 
-section {
-    background: #999;
+.features {
+    background: #0368C0;
     padding: 20px;
     display: flex;
     flex-direction: row;
+}
+
+.features figure {
+    margin: auto;
+    width: 100px;
+}
+
+.features figure img {
+    width: 200px;
 }
 
 div {
@@ -62,6 +85,6 @@ div {
 
 footer {
     clear: both;
-    background: black;
+    background: #1a3056;
     padding: 8px 20px;
 }
