@@ -1,16 +1,15 @@
 body {
-    background: #0368C0;
+    background: #1a3056;
     color: white;
     font-family: Tahoma, Verdana, Arial, sans-serif;
-    margin: 0;
+    margin: 0 10%;
     padding: 0;
 }
 
 header {
-    background: #1a3056;
-
+    background-image: url("http://www.capetowngallery.co.za/wp-content/uploads/2018/01/Environment-Pan-CT-4.jpg");
     background-repeat: no-repeat;
-    padding: 10px 25px;
+    padding: 10px 25px 70px 25px;
     margin: 0;
     text-decoration: none;
 }
@@ -66,6 +65,7 @@ nav ul li {
     padding: 20px;
     display: flex;
     flex-direction: row;
+    text-align: center;
 }
 
 .features figure {
@@ -74,7 +74,9 @@ nav ul li {
 }
 
 .features figure img {
-    width: 200px;
+    width: 300px;
+    border-radius: 50%;
+    text-align: center;
 }
 
 div {
