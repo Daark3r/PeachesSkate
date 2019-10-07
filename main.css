@@ -2,12 +2,12 @@ body {
     background: #1a3056;
     color: white;
     font-family: Tahoma, Verdana, Arial, sans-serif;
-    margin: 0 10%;
+    margin: 0;
     padding: 0;
 }
 
 header {
-    background-image: url("http://www.capetowngallery.co.za/wp-content/uploads/2018/01/Environment-Pan-CT-4.jpg");
+    background-color: #0368C0;
     background-repeat: no-repeat;
     padding: 10px 25px 10px 25px;
     margin: 0;
@@ -16,19 +16,19 @@ header {
 
 header .logo a {
     background-image: url("peacheslogo.png");
-    background-size: 150px;
+    background-size: 120px;
     background-repeat: no-repeat;
     display: inline-block;
-    height: 150px;
-    position: relative;
+    height: 120px;
+    /*position: relative;*/
     text-indent: -999px;
     top: 0;
-    width: 150px;
+    width: 120px;
 }
 
 header .page a {
     position: relative;
-    top: 60px;
+    top: 35px;
 }
 
 header .page a:hover {
