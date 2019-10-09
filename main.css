@@ -2,7 +2,7 @@ body {
     background: #222;
     color: white;
     font-family: Tahoma, Verdana, Arial, sans-serif;
-    margin: 0 10%;
+    margin: 0;
     padding: 0;
 }
 
@@ -34,12 +34,6 @@ header .page a {
 
 header .page a:hover {
     text-decoration: underline;
-}
-
-header h1 {
-    margin: 0;
-    display: inline;
-    font-size: 30px;
 }
 
 header a {
@@ -75,8 +69,10 @@ nav ul li {
 .mid {
     background-image: url("shop/looking.jpeg");
     background-repeat: no-repeat;
+    display: block;
+    margin: 0 auto;
     height: 600px;
-    width: 100%;
+    width: 50%;
 }
 
 p {
@@ -86,35 +82,36 @@ p {
     top: 60px;
 }
 
-.features {
-    background: #0368C0;
-    padding: 0;
-    margin: 0;
+.lower {
     display: flex;
-    flex-direction: row;
-    text-align: center;
+}
+  
+.feature {
+    flex: 33.33%;
+    padding: 5px 5px 0 5px;
+    margin: 0;
+    position: relative;
+    text-decoration: none;
+}
+
+.ft-btn{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: #222;
+    color: white;
+    padding: 0 20px;
+    text-decoration: none;
 }
 
 figure {
     padding: 0;
     margin: 0;
-
-}
-
-.features figure img {
-    width: 600px;
-    height: 600px;
-    border-radius: 10px;
-}
-
-div {
-    background: pink;
-    margin: auto;
-    width: 100px;
 }
 
 footer {
     clear: both;
     background: #1a3056;
     padding: 8px 20px;
+    margin: 0;
 }
