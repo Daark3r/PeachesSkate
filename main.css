@@ -85,7 +85,8 @@ nav ul li {
 
 .mid {
     background-image: url("shop/looking.jpeg");
-    /*background-repeat: no-repeat;*/
+    background-size: cover;
+    background-repeat: no-repeat;
     display: block;
     margin: 20px auto;
     height: 600px;
