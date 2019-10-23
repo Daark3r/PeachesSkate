@@ -1,10 +1,10 @@
 body {
     background: #222;
     color: white;
-    /*font-family: 'Zilla Slab', serif;*/
-    /*font-family: 'Josefin Slab', serif;*/
-    font-family: 'Kreon', serif;
-    /*font-family: Tahoma, Verdana, Arial, sans-serif;*/
+   /*font-family: 'Lobster', cursive;
+    /*font-family: 'Acme', sans-serif;*/
+    font-family: 'Roboto', sans-serif;
+    /*font-family: 'Fascinate Inline', cursive;*/
     margin: 0;
     padding: 0;
 }
@@ -33,18 +33,27 @@ header .logo a {
     width: 100px;
 }
 
-header .page a {
+header .coname {
+    font-family: 'Lobster', cursive;
     position: relative;
     top: 24px; 
+    margin: 0 30px 0 30px;
+    font-size: 50px;
+}
+
+header .page a {
+    position: relative;
+    float: right;
+    top: 10px; 
     margin: 0 30px 0 10px;
-    font-size: 30px;
+    font-size: 20px;
     transition-duration: 0.5s;
     transition-delay: 0.1s;
 }
 
 header .page a:hover {
     /*text-decoration: underline;*/
-    font-size: 40px;
+    font-size: 30px;
 }
 
 header a {
@@ -58,8 +67,8 @@ header a {
 header .social {
     float: right;
     position: relative;
-    top: 24px; 
-    margin: 0 30px 0 10px;
+    top: 0; 
+    margin: 0 10px 0 10px;
     transition-delay: 0.1;
     transition-duration: 50ms;
 }
@@ -91,7 +100,7 @@ nav ul li {
 /* --Mid Section-- */
 
 .mid {
-    background-image: url("shop/looking.jpeg");
+    background-image: url("tablemntcrop.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     display: block;
@@ -160,9 +169,38 @@ footer {
 
 /* --Responsive Rules-- */
 
+@media screen and (max-width: 912px) {
+    
+    header .coname {
+        font-size: 40px;
+    }
+}
+
 @media screen and (max-width: 840px) {
+
+    header .coname {
+        font-size: 30PX;
+    }
+
     header .page {
         display: none;
+    }
+
+    header .social {
+        display: none;
+    }
+
+    header .msocial {
+        display: inline-flex;
+        position: relative;
+        float: right;
+        margin: 0;
+        top: 24px;
+        padding: 0 5px;
+    }
+
+    header .msocial:hover {
+        top: 20px;
     }
 
     .dropbtn {
@@ -223,22 +261,7 @@ footer {
         margin: 0 auto;
     }
     
-    header .social {
-        display: none;
-    }
 
-    header .msocial {
-        display: inline-flex;
-        position: relative;
-        float: right;
-        margin: 0;
-        top: 24px;
-        padding: 0 5px;
-    }
-
-    header .msocial:hover {
-        top: 20px;
-    }
 
     .lower {
         display: inline;
