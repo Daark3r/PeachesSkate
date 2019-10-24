@@ -9,7 +9,7 @@ if (isset($_POST['submit'])) {
 
     $mailTo = "admin@moyacentre.co.za";
     $headers = "From: ".$mailFrom;
-    $txt = "You have received an e-mail from ".$name.$country.".\n\n".$message;
+    $txt = "You have received an e-mail from ".$fname.$lname.$country.".\n\n".$message;
 
 
 
