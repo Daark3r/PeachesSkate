@@ -1,0 +1,21 @@
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    align-content: center;
+    grid-gap: 10px;
+    height: 100vh;
+  }
+  
+  .gallery img {
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+  }
+  
+  @media only screen and (max-width: 700px) {
+   
+  }
+  
+  @media only screen and (max-width: 500px) {
+
+  }
