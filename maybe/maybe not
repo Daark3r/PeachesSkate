@@ -1,0 +1,14 @@
+.gallery {
+    display: flex;
+   /* grid-template-columns: repeat(3, 200px);*/
+    height: 100vh;
+    margin: 5px 0 0 0;
+  }
+  
+  .gallery img {
+    /*width: 200px;
+    height: 200px;*/
+    cursor: pointer;
+    max-width: 300px;
+    margin: 5px 5px;
+  } 
