@@ -1,16 +1,18 @@
 .gallery {
-  display: flex;
-  margin: 0;
-  padding: 0;
+  margin: 10px 50px;
 }
 
-div img {
-  flex: 33.33%;
-  padding: 0;
-  margin: 0 0 10px 0;
-  position: relative;
-  text-decoration: none;
+.gallery img {
+  transition: 500ms;
+  padding: 15px;
+  width: 500px;
 }
+
+.gallery img:hover {
+  transform: scale(1.1);
+}
+
+
   
   @media only screen and (max-width: 700px) {
    
