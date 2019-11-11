@@ -6,6 +6,9 @@
         <title>Peaches Skateboarding</title>
         <link rel="icon" href="peachicon.png" type="img/png">
         <link rel="stylesheet" type="text/css" href="main.css">
+        <link rel="stylesheet" href="shop.css">
+        <link rel="stylesheet" href="lightbox.min.css">
+        <script src="lightbox-plus-jquery.min.js"></script>
         <script src="https://kit.fontawesome.com/290c1a341c.js" crossorigin="anonymous"></script>
         <link href="https://fonts.googleapis.com/css?family=Acme|Fascinate+Inline|Lobster|Roboto&display=swap" rel="stylesheet"> 
     </head>
@@ -19,7 +22,7 @@
                         <div class="dropdown-content">
                             <a href="gallery.html">Gallery</a>
                             <a href="shop.html">Shop</a>
-                            <a href="contact.html">Contact</a>
+                            <!-- <a href="contact.html">Contact</a> -->
                         </div>
                     </div> 
                     <li class="logo"><a href="index.html">Peaches Skateboarding Logo</a></li>
@@ -37,13 +40,15 @@
 
         </header>
         
-        <figure>
-            <img src="shop/deckwood.jpeg" alt="Peaches Deck">
+        <figure class="shopdeck">
+            <a href="shop/deck.jpg" data-lightbox="mygallery"><img src="shop/deck.jpg"></a>
+            <a href="shop/deckwood.jpeg" data-lightbox="mygallery"><img src="shop/deckwood.jpeg"></a>
+            <a href="shop/setup.jpeg" data-lightbox="mygallery"><img src="shop/setup.jpeg"></a>
             <figcaption>Peaches Cat Deck<br>R600</figcaption>
         </figure>
 
-        <figure>
-                <img src="shop/setupgrip.jpeg" alt="Peaches Rat Tape">
+        <figure class="shopgrip">
+                <a href="shop/setupgrip.jpeg" data-lightbox="mygallery"><img src="shop/setupgrip.jpeg"></a>
                 <figcaption>Rat Tape<br>R80</figcaption>
         </figure>
         

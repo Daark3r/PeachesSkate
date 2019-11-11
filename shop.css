@@ -1,0 +1,17 @@
+figure {
+    text-align: center;
+}
+
+.shopdeck, .shopgrip {
+    margin: 10px 50px;
+}
+  
+img {
+    transition: 500ms;
+    padding: 15px;
+    width: 500px;
+}
+  
+img:hover {
+    transform: scale(1.1);
+}
